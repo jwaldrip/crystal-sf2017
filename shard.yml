@@ -1,0 +1,13 @@
+name: crystal-sf2017
+version: 0.1.0
+
+authors:
+  - jwaldrip <jason@waldrip.net>
+
+targets:
+  crystal-sf2017:
+    main: src/crystal-sf2017.cr
+
+crystal: 0.22.0
+
+license: MIT
