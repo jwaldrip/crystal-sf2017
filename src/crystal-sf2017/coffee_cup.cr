@@ -37,7 +37,7 @@ end
 
 # Fill and drink the cup
 cup = CrystalSF2017::CrystalCup(String).new(CrystalSF2017::Crystaller.new)
-cup.fill(100_f32)
+cup.fill with: 100_f32
 while cup.@amount > 0
   cup.drink(10_f32)
   puts cup.@amount
