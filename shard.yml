@@ -11,3 +11,7 @@ targets:
 crystal: 0.22.0
 
 license: MIT
+
+dependencies:
+  expect:
+    github: dukex/expect.cr
