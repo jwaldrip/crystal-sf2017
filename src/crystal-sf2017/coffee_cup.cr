@@ -31,14 +31,5 @@ module CrystalSF2017
       @amount -= amount
       amount
     end
-
   end
-end
-
-# Fill and drink the cup
-cup = CrystalSF2017::CrystalCup(String).new(CrystalSF2017::Crystaller.new)
-cup.fill with: 100_f32
-while cup.@amount > 0
-  cup.drink(10_f32)
-  puts cup.@amount
 end
